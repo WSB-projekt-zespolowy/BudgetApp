@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { useGlobalContext } from "../../context/globalContext";
+import HistoricalTransactions from "../HistoricalTransactions/HistoricalTransactions";
+import Chart from "../Chart/Chart";
 import styles from "./Dashboard.module.css";
 
 function Dashboard() {
@@ -28,6 +30,12 @@ function Dashboard() {
             <h2>Bilans</h2>
             <p>{totalBalance()}&nbsp;PLN</p>
           </div>
+        </div>
+        <div className={styles.chart}>
+          <Chart />
+        </div>
+        <div className={styles.history}>
+          <HistoricalTransactions />
         </div>
       </div>
     </div>
