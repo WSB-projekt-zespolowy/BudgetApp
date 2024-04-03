@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useGlobalContext } from "../../../context/globalContext";
+import { useGlobalContext } from "../../context/globalContext";
 import styles from "./Dashboard.module.css";
 
 function Dashboard() {
