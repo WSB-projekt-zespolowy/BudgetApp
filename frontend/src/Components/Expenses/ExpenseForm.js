@@ -3,6 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useGlobalContext } from "../../context/globalContext";
 import Button from "../Button/Button";
+import styles from "./Expenses.module.css";
 
 function ExpenseForm() {
   const { addExpense, error, setError } = useGlobalContext();
@@ -34,7 +35,7 @@ function ExpenseForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={styles.incomeForm} onSubmit={handleSubmit}>
       <h2>Dodaj wydatek</h2>
       {error && <p>{error}</p>}
       <div>
