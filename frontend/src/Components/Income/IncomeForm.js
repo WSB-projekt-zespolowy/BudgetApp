@@ -3,6 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useGlobalContext } from "../../context/globalContext";
 import Button from "../Button/Button";
+import styles from "./Income.module.css";
 
 function IncomeForm() {
   const { addIncome, error, setError } = useGlobalContext();
@@ -34,7 +35,7 @@ function IncomeForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={styles.incomeForm} onSubmit={handleSubmit}>
       <h2>Dodaj przychód</h2>
       {error && <p>{error}</p>}
       <div>
