@@ -1,5 +1,9 @@
 # BudgetApp
 
+## Demo.mov
+
+<a href="https://github.com/WSB-projekt-zespolowy/BudgetApp/blob/main/demo.mov">https://github.com/WSB-projekt-zespolowy/BudgetApp/blob/main/demo.mov</a> 
+
 ## Why?
 
 BudgetApp is designed to simplify personal finance management for users who seek an easy-to-use solution for tracking their income and expenses.
