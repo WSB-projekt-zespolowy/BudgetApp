@@ -19,7 +19,7 @@ BudgetApp utilizes the MERN (MongoDB, Express.js, React.js, Node.js) stack to pr
 3. **Expense Management**: Adding expenses is effortless with BudgetApp. Users can input their expenses, review them in a list, and delete entries as needed.
 
 
-### Running BudgetApp
+## Running BudgetApp
 
 1. **Clone the repository:**
    ```
