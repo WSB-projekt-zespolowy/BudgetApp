@@ -39,10 +39,18 @@ BudgetApp utilizes the MERN (MongoDB, Express.js, React.js, Node.js) stack to pr
 
 4. **Navigate to the backend folder:**
    ```
-   cd ../backend
+   cd BudgetApp/backend
    ```
 
-5. **Install dependencies and start the backend:**
+5. **Create a .env file:**
+   Before starting the backend, make sure to create a `.env` file in the `backend` directory with the following variables:
+   ```
+   PORT=5001
+   MONGO_URL=<your_mongo_uri>
+   ```
+   Replace `<your_mongo_uri>` with your MongoDB connection URI. Be sure to keep this information secure and do not share it publicly.
+
+6. **Install dependencies and start the backend:**
    ```
    npm install
    npm run start
